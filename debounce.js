@@ -39,3 +39,8 @@ const obj = {
 const debounce_func = debounce(obj.func.bind(obj), 2000);
 
 debounce_func(1);
+debounce_func(2);
+debounce_func(3);
+debounce_func(4);
+//回调函数运行了obj
+//回调函数运行了4
